@@ -6,3 +6,4 @@ services:
       - .:/usr/src/app
     ports:
       - "3000:3000"
+      - "6007:6007"

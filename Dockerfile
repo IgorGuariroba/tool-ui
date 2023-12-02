@@ -12,5 +12,8 @@ COPY . .
 # Install dependencies
 RUN npm install
 
+# Instalar o Next.js globalmente
+RUN npm install -g next
+
 CMD ["npm", "run", "dev"]
 #CMD ["bash", "-c", "while true; do echo Docker is running...; sleep 100; done"]
